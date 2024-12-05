@@ -5,6 +5,7 @@ import Header from './components/header';
 import Home from './pages/home';
 import React from 'react';
 import About from './pages/about';
+import NotFound from './pages/notFound';
 function App() {
 
   return (
@@ -23,8 +24,8 @@ function App() {
           <Route path='/about-us' Component={About}>
 
           </Route>
-          {/* <Route path='*' Component={NotFound}>
-          </Route> */}
+          <Route path='*' Component={NotFound}>
+          </Route>
         </Routes>
       </Router>
 

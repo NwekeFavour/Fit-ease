@@ -84,6 +84,15 @@ body{
   font-style: italic;
 }
 
+.error{
+  background: url('./assets/images/Shopaholics.svg');
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .coachtwo{
   background-image: url('./assets/images/Frame 314 2.svg');
   width: 285px;
@@ -196,6 +205,12 @@ body{
   height: 184px;
 }
 
+.hrs{
+  width: 150px;
+  height: 2px;
+  background-color: #DDDD;
+}
+
 .hr{
   width: 150px;
   height: 2px;
@@ -217,9 +232,17 @@ body{
   .boxer{
     width: 400px;
   }
+  .hrs{
+    width: 100px;
+    height: 2px;
+    background-color: #DDDD;
+  }
 }
 
 @media screen and (max-width:600px) {
+  .error{
+    height: 300px;
+  }
   .boxer{
     width: 300px;
   }
