@@ -281,7 +281,7 @@ function Home() {
                             </Button>
                         </CardFooter>
                     </Card>
-                    <Card className="bg-transparent border-4 md:my-0 my-4  md:border-2 border-red-500">
+                    <Card className="bg-transparent border-4 md:my-4 my-4  md:border-2 border-red-500">
                         <CardHeader>
                             <CardTitle className="text-red-600 md:text-[18px] text-center">Package</CardTitle>
                             <CardDescription className="uppercase font-bold text-center md:py-5 text-white md:text-[41px]">Custom plan</CardDescription>
@@ -331,7 +331,7 @@ function Home() {
                             </Button>
                         </CardFooter>
                     </Card>
-                    <Card className="bg-transparent border-4 md:my-0 my-4  md:border-2 border-orange-600">
+                    <Card className="bg-transparent border-4 md:my-4 my-4  md:border-2 border-orange-600">
                         <CardHeader>
                             <CardTitle className="text-orange-600 md:text-[18px] text-center">Package</CardTitle>
                             <CardDescription className="uppercase font-bold text-center md:py-5 text-white md:text-[41px]">Beginner plan</CardDescription>

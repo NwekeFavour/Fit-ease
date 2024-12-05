@@ -63,7 +63,7 @@ function HeaderContent() {
                 </div>
               </div>
             </NavigationMenuItem>            
-            <div className={`lg:flex  lg:relative fixed lg:h-0 h-[100vh] start-[0px] lg:top-0 w-[70%] lg:w-[50%] top-[1px] lg:bg-transparent  bg-[#262626] ${openNav ? 'block' : 'hidden'} justify-items-start items-center lg:px-12 gap-16`}>
+            <div className={`lg:flex  lg:relative fixed lg:h-0 h-[100vh] start-[0px] lg:top-0 w-[70%] lg:w-[100%] top-[1px] lg:bg-transparent  bg-[#262626] ${openNav ? 'block' : 'hidden'} justify-items-start items-center lg:px-12 gap-16`}>
               {
                 links.map((text, index) => (
                   <NavigationMenuItem className='md:py-0 py-2' key={index}>
