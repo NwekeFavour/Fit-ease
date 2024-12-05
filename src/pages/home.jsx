@@ -71,7 +71,7 @@ function Home() {
                                 <p className="m-0 font-bold md:text-[25px] text-[16px] lg:text-[30px] text-center text-white">Achive Your </p>
                             </div>
                             <div className="text-4xl my-2 lg:my-3 font-bold bg-gradient-to-r from-[#D20C13]  to-[#CC4E17] bg-clip-text text-transparent">
-                                <p className="m-0 lg:text-[50px] text-[18px] md:text-[40px] text-center uppercase">fitness goals</p>
+                                <p className="m-0 lg:text-[50px] fit text-[18px] md:text-[40px] text-center uppercase">fitness goals</p>
                             </div>
                             <div className=''>
                                 <p className="m-0 font-bold md:text-[25px] text-[16px] lg:text-[30px] text-center text-white capitalize">with fitmaker</p>
